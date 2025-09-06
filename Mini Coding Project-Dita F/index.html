@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kucing Manjalita</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+
+        <nav>
+            <a>Home</a>
+            <a>About Us</a>
+            <a>Gallery</a>
+            <a>Contact</a>
+        </nav>
+    </header>
+    <hr />
+
+    <main>
+        <!-- Content -->
+        <section>
+            <header>
+                <h1>TOKO KUCING</h1>
+            </header>
+
+            <article>
+                <p> Open Pre Order <br>
+                    10 September - 10 Oktober 2025</p>
+
+                <div class="banner-container">
+                    <div class="banner-item" style="background-image: url(image/1.jpg)"></div>
+                   
+                </div>
+            </article>
+        </section>
+
+        <hr />
+
+        <!-- Gallery Content -->
+        <section id="Gallery">
+            <header>
+                <h1>Galeri Kucing Kami</h1>
+            </header>
+
+            <article class="profile-content">
+                <div class="profile-item">
+                    <div class="profile-icon" style="background-image: url(image/2.jpg)"></div>
+                    <p>Muhammad Sumbul <br>
+                    3 bulan</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon" style="background-image: url(image/3.jpg)"></div>
+                    <p>AIko <br>
+                    5 bulan</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon" style="background-image: url(image/4.jpg)"></div>
+                    <p>Tralaleo <br>
+                    8,5 bulan</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon" style="background-image: url(image/5.jpg)"></div>
+                    <p>Davinci <br>
+                    1 tahun</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon" style="background-image: url(image/6.jpg)"></div>
+                    <p>Chloro <br>
+                    2,5 bulan</p>
+                </div>
+
+                <div class="profile-item">
+                    <div class="profile-icon" style="background-image: url(image/7.jpg)"></div>
+                    <p>Joseph Batubara <br>
+                    1 bulan</p>
+                </div>
+
+                <div class="divider"></div>
+            </article>
+        </section>
+
+          <!-- Contact -->
+        <section>
+            <header>
+                <h1>Hubungi Kami</h1>
+            </header>
+
+            <article>
+                <p> kucingmanjalita@gmail.com <br>
+                    WhatsApp (0812345678)</p>
+
+            <article style="display: flex; justify-content: space-between;">
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="firstname">Firstname :</label></td>
+                            <td><input type="text" id="firstname" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">Lastname :</label></td>
+                            <td><input type="text" id="lastname" required></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">
+                                <button type="button" onclick="nextSlide(1);">Submit</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+                
+                <div id="result" style="border: 1px solid; height: 100px; width: 100px;"></div>
+            </article>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
